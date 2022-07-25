@@ -12,6 +12,7 @@ Process and cross information from multiple sources, analyze and try to predict 
 
 ```
 Python 3
+Linux
 ```
 
 ## Getting Started

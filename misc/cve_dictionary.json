@@ -1,0 +1,538 @@
+{
+  "bug class": {
+    "type confusion": [
+      "type conf",
+      "typeconf",
+      "type-conf"
+    ],
+    "buffer overflow": [
+      "buffer overflow",
+      "stack overflow",
+      "heap overflow",
+      "overrun",
+      "buffer over-read"
+    ],
+    "race condition": [
+      "timing attack",
+      "race condition",
+      "race"
+    ],
+    "logic bug": [
+      "logic bug",
+      "logical bug",
+      "logic issue"
+    ],
+    "crypto bug": [
+      "crypto bug",
+      "cryptography bug",
+      "crypto weakness",
+      "certificate",
+      "signing",
+      "signatures",
+      "encryption keys",
+      "cryptographic protection"
+    ],
+    "use after free": [
+      "uaf",
+      "use-after-free",
+      "use after free",
+      "lifetime"
+    ],
+    "uninitialized": [
+      "uninit",
+      "uninitialized memory",
+      "uninitialized"
+    ],
+    "signedness": [
+      "signed",
+      "unsigned"
+    ],
+    "truncation": [
+      "truncation",
+      "truncated"
+    ],
+    "int overflow": [
+      "int overflow",
+      "integer overflow"
+    ],
+    "man in the middle": [
+      "mitm",
+      "man in the middle",
+      "man-in-the-middle"
+    ],
+    "authentication bypass": [
+      "authentication",
+      "bypass"
+    ],
+    "injection": [
+      "format injection",
+      "printf",
+      "shell injection",
+      "command injection",
+      "code injection",
+      "DYLIB injection",
+      "inject code",
+      "sql injection",
+      "Format string",
+      "inject"
+    ],
+    "double free": [
+      "double free",
+      "double-free"
+    ],
+    "side channel": [
+      "side channel"
+    ],
+    "out-of-bounds": [
+      "out-of-bounds",
+      "oob",
+      "out of bounds"
+    ],
+    "memory corruption": [
+      "memory corruption"
+    ],
+    "Off by One": [
+      "off by one",
+      "obo",
+      "off-by-one"
+    ],
+    "Access Issues": [
+      "access issue"
+    ],
+    "Validation Issues": [
+      "validation issue",
+      "valid issue",
+      "validate",
+      "blacklist",
+      "whitelist",
+      "certificates"
+    ],
+    "sandbox": [
+      "sandbox escape",
+      "sandbox restrictions",
+      "Sandbox protection",
+      "AppSandbox"
+    ],
+    "Leak": [
+      "leak a user's credentials",
+      "credentials leak",
+      "sensitive information",
+      "disclosure"
+    ],
+    "Authentication": [
+      "unauthorized actions",
+      "permissions"
+    ],
+    "Out of memory": [
+      "unable to allocate memory",
+      "oom",
+      "resource consumption",
+      "memory consumption"
+    ],
+    "permissions issue": [
+      "permissions issue"
+    ],
+    "Unspecified vulnerability": [
+      "Unspecified vulnerability"
+    ],
+    "path traversal": [
+      "Directory traversal",
+      "dot dot"
+    ],
+    "cross-origin": [
+      "cross-origin",
+      "csrf"
+    ],
+    "Cross-site scripting": [
+      "XSS",
+      "Cross-site scripting"
+    ],
+    "redirection": [
+      "redirection"
+    ],
+    "Rules": [
+      "Insufficient Policy"
+    ],
+    "Null dereference": [
+      "Null deref",
+      "Null pointer dereference"
+    ],
+    "flood": [
+      "flood of HTTP GET requests"
+    ]
+  },
+  "apple os": {
+    "MacOs": [
+      "MacOs",
+      "Mac Os",
+      "Apple OS X",
+      "Apple Mac EFI",
+      "OS X",
+      "Apple Powerbooks"
+    ],
+    "IOS": [
+      "IOS"
+    ],
+    "Apple Iphone": [
+      "Apple iPhone",
+      "iPhone OS"
+    ],
+    "IpadOS": [
+      "IpadOS",
+      "Ipad OS"
+    ],
+    "WatchOS": [
+      "WatchOS",
+      "Watch OS"
+    ],
+    "tvOS": [
+      "tvOS",
+      "tv OS",
+      "Apple TV"
+    ],
+    "iPod": [
+      "iPod",
+      "iPodOS",
+      "iPod touch"
+    ],
+    "Apple Game Center": [
+      "Apple Game Center"
+    ],
+    "iTunes": [
+      "iTunes"
+    ],
+    "iCloud": [
+      "iCloud"
+    ],
+    "Apple Music": [
+      "Apple Music"
+    ],
+    "Apple MFI": [
+      "Apple MFI"
+    ],
+    "Apple TV app": [
+      "Apple TV app"
+    ],
+    "Apple Safari": [
+      "Safari",
+      "Apple Safari",
+      "WebKit"
+    ],
+    "Apple Remote Desktop": [
+      "Apple Remote Desktop"
+    ],
+    "Apple's GarageBand": [
+      "GarageBand"
+    ],
+    "Apple's Logic Pro": [
+      "Logic Pro X",
+      "Logic Pro"
+    ],
+    "Apple's Transporter": [
+      "Transporter"
+    ],
+    "Apple Xcode": [
+      "Apple Xcode",
+      "Swift",
+      "Xcode"
+    ],
+    "Apple HomeKit": [
+      "HomeKit"
+    ],
+    "Apple Siri": [
+      "Siri"
+    ],
+    "Apple's Swift Programming Language": [
+      "Swift"
+    ],
+    "Apple iBooks Author": [
+      "Apple iBooks Author",
+      "iBooks Author",
+      "Author"
+    ],
+    "Apple FileMaker": [
+      "Apple FileMaker"
+    ],
+    "Apple's QuickTime": [
+      "QuickTime",
+      "Apple QuickTime"
+    ],
+    "Apple Pages": [
+      "Apple Pages"
+    ],
+    "Apple's Motion": [
+      "Apple Motion"
+    ],
+    "Apple Keynote": [
+      "Apple Keynote"
+    ],
+    "Apple AirPort": [
+      "Apple AirPort Base Station",
+      "AirPort Utility",
+      "Apple AirPort Express",
+      "AirPort Extreme",
+      "Apple AirPort"
+    ],
+    "Apple iPhoto": [
+      "Apple iPhoto"
+    ],
+    "Apple Personal Web Sharing": [
+      "Apple Personal Web Sharing",
+      "PWS"
+    ],
+    "Apple Palm Desktop": [
+      "Apple Palm Desktop"
+    ],
+    "Apple printers": [
+      "Apple LaserWriter"
+    ],
+    "Darwin Streaming Server": [
+      "Darwin Streaming Server"
+    ],
+    "Mac OS X Server": [
+      "Mac OS X Server"
+    ],
+    "Apple PKTAP parser": [
+      "Apple PKTAP parser"
+    ],
+    "Apple Software Update": [
+      "Apple Software Update"
+    ],
+    "Apple Boot Camp": [
+      "Apple Boot Camp"
+    ],
+    "Apple iChat": [
+      "Apple iChat"
+    ],
+    "Wi-Fi chips": [
+      "Broadcom",
+      "Wi-Fi chips"
+    ],
+    "Apple WebObjects": [
+      "Apple WebObjects"
+    ],
+    "Apple Bonjour": [
+      "Apple Bonjour"
+    ],
+    "Apple Xsan": [
+      "Apple Xsan "
+    ],
+    "Apple Xserve": [
+      "Apple Xserve"
+    ],
+    "Apple Terminal": [
+      "Apple Terminal"
+    ],
+    "Apple File Service": [
+      "AFP Server",
+      "Apple File Service"
+    ],
+    "Apple Powerbooks": [
+      "Apple Powerbooks"
+    ]
+  },
+  "Apple Libraries": {
+    "IOAudioFamily": [
+      "IOAudioFamily"
+    ],
+    "IOAcceleratorFamily": [
+      "IOAcceleratorFamily"
+    ],
+    "IOAccelSharedUserClient2": [
+      "IOAccelSharedUserClient2"
+    ],
+    "Crash Reporter": [
+      "Crash Reporter"
+    ],
+    "CoreStorage": [
+      "CoreStorage"
+    ],
+    "Web Server": [
+      "Web Server"
+    ],
+    "Captive Network Assistant": [
+      "Captive Network Assistant"
+    ],
+    "AppleGraphicsControlClient": [
+      "AppleGraphicsControlClient"
+    ],
+    "AppleGraphicsDeviceControlClient": [
+      "AppleGraphicsDeviceControlClient"
+    ],
+    "Apple WebKit": [
+      "WebKit"
+    ]
+  },
+  "samsung products": {
+    "Samsung Galaxy": [
+      "Samsung Galaxy"
+    ],
+    "Tizen": [
+      "Tizen"
+    ],
+    "Samsung Account": [
+      "Samsung Account"
+    ],
+    "Samsung Internet": [
+      "Samsung Internet"
+    ],
+    "Samsung Members": [
+      "Samsung Members"
+    ],
+    "Samsung Kies": [
+      "Samsung Kies"
+    ],
+    "Samsung Mobile Print App": [
+      "Samsung Mobile Print"
+    ],
+    "Samsung Laser Printers": [
+      "Samsung Laser Printers"
+    ],
+    "Samsung SmartViewer": [
+      "Samsung SmartViewer"
+    ],
+    "STWConfig ActiveX": [
+      "STWConfig ActiveX"
+    ],
+    "Samsung iPOLiS Device Manager": [
+      "Samsung iPOLiS Device Manager"
+    ]
+  },
+  "Samsung Models": {
+    "Galaxy S8": [
+      "Galaxy S8",
+      "S8"
+    ],
+    "G950FXXU1AQL5": [
+      "G950FXXU1AQL5"
+    ],
+    "Samsung Galaxy Gear": [
+      "Samsung Galaxy Gear"
+    ]
+  },
+  "Google Products": {
+    "Google Chrome": [
+      "Google Chrome"
+    ],
+    "Google Docs": [
+      "Google Docs"
+    ],
+    "Google TensorFlow ": [
+      "Google TensorFlow "
+    ],
+    "Google Earth": [
+      "Google Earth"
+    ],
+    "Google Play Store": [
+      "Google Play Store"
+    ],
+    "Google Play services": [
+      "Google Play services"
+    ],
+    "Google Assistant": [
+      "Google Assistant"
+    ],
+    "Google Authentication": [
+      "Google TOTP",
+      "Google Authenticator"
+    ],
+    "Android": [
+      "Android"
+    ],
+    "Google Map": [
+      "Google Map"
+    ],
+    "Google gRPC": [
+      "Google gRPC"
+    ],
+    "Google News Application": [
+      "Google News"
+    ],
+    "Google Weather Application": [
+      "Google News and Weather application",
+      "Google Weather Appliction"
+    ],
+    "Google AdSense Plugin": [
+      "Google AdSense",
+      "adsense-plugin"
+    ],
+    "Google Pixel": [
+      "Google Pixel"
+    ]
+  },
+  "Android Version": {
+    "Android 9": [
+      "Android 9"
+    ]
+  },
+  "Affected by google": {
+    "Windows": [
+      "Google Chrome on Windows"
+    ],
+    "Android": [
+      "on Android",
+      "in Android"
+    ],
+    "ChromOs": [
+      "Google Chrome on ChromeOS"
+    ],
+    "WordPress": [
+      "for WordPress "
+    ],
+    "Nexus": [
+      "on Nexus"
+    ]
+  },
+  "exploit primitives": {
+    "remote code execution": [
+      "remote code execution",
+      "rce",
+      "remote control execution"
+    ],
+    "DOS": [
+      "Denial of Service",
+      "dos",
+      "ddos",
+      "DoS"
+    ],
+    "privilege escalation": [
+      "privilege escalation",
+      "pe",
+      "escalated privileges",
+      "elevate privileges"
+    ],
+    "out of bounds": [
+      "out of bounds",
+      "out-of-bounds",
+      "oob",
+      "out-of-bounds write"
+    ],
+    "ASLR": [
+      "bypass the ASLR",
+      "defeat the KASLR"
+    ],
+    "cryptographic weakness": [
+      "cryptographic weakness",
+      "cryptographic protection"
+    ]
+  },
+  "3rd party libs": {
+    "libxml": [
+      "libxml"
+    ],
+    "Apache HTTP server": [
+      "Apache HTTP server"
+    ]
+  },
+  "regex queries": [
+    "{FILL_ME} before \\d+\\.\\d+",
+    "{FILL_ME} \\d+\\.\\d+",
+    "{FILL_ME} prior \\d+\\.\\d+",
+    "{FILL_ME} prior to \\d+\\.\\d+",
+    "{FILL_ME} version \\d+\\.\\d+",
+    "{FILL_ME} through \\d+\\.\\d+",
+    "versions prior to {FILL_ME} \\d+\\.\\d+",
+    "{FILL_ME} prior to version \\d+\\.\\d+"
+  ]
+}
+
